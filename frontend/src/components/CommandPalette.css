@@ -1,0 +1,33 @@
+[cmdk-group-heading] {
+  padding: 8px 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #6b7280;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+[cmdk-item] {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #d1d5db;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+[cmdk-item][aria-selected="true"] {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+}
+
+[cmdk-item] svg {
+  margin-right: 12px;
+  color: #9ca3af;
+}
+
+[cmdk-item][aria-selected="true"] svg {
+  color: #fff;
+}

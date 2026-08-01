@@ -1,0 +1,115 @@
+/* ==========================================
+   FLOWOPS GLOBAL STYLES
+   Premium dark-theme SaaS foundation
+   ========================================== */
+
+/* Let Tailwind's preflight handle the box-model reset.
+   Only add styles here that DON'T conflict with Tailwind utilities. */
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #0a0e1a;
+  color: #e2e8f0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Focus ring utility */
+*:focus-visible {
+  outline: 2px solid rgba(139, 92, 246, 0.5);
+  outline-offset: 2px;
+}
+
+/* Smooth page transitions */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* React Flow overrides for dark theme */
+.react-flow__background {
+  background: #0a0e1a !important;
+}
+
+.react-flow__controls {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.react-flow__controls-button {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  fill: #94a3b8 !important;
+  color: #94a3b8 !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.react-flow__controls-button:hover {
+  background: rgba(139, 92, 246, 0.15) !important;
+  fill: #8b5cf6 !important;
+}
+
+.react-flow__edge-path {
+  stroke: rgba(139, 92, 246, 0.4) !important;
+  stroke-width: 2 !important;
+}
+
+.react-flow__handle {
+  background: #8b5cf6 !important;
+  border: 2px solid #0a0e1a !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.react-flow__minimap {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  border-radius: 12px !important;
+}
+
+/* Recharts dark theme overrides */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: rgba(255, 255, 255, 0.04) !important;
+}
+
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: rgba(15, 20, 35, 0.95) !important;
+  backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+}
