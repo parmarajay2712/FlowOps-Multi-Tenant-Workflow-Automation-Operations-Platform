@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:1a1a1a,100:111111&height=220&section=header&text=FlowOps&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Multi-Tenant%20Workflow%20Automation%20%26%20Operations%20Platform&descAlignY=58&descSize=18&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:1a1a2e,100:16213e&height=220&section=header&text=FlowOps&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Multi-Tenant%20Workflow%20Automation%20Platform&descAlignY=58&descSize=18&animation=fadeIn)
 
 <div align="center">
 
