@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Settings as SettingsIcon, Shield, Building, Mail, CheckCircle2, Key, List, Plus, Trash2 } from 'lucide-react';
+import { Settings as SettingsIcon, Shield, Building, Mail, CheckCircle2, Key, List, Plus, Trash2, User } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext.jsx';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { api } from '../lib/axios.js';
